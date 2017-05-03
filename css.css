@@ -1,0 +1,174 @@
+body{
+  max-width: 60em;
+  margin: auto 0;
+  background: #464349;
+  color:#F9D423;
+}
+.toppur{
+ 	  position:relative;
+  	top: -8px;
+  	left: 0px;
+  	background: #1e0968;
+  	color: #fff;
+  	width: 170.9%;
+  	font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;    	
+  	font-weight: 700;
+   	font-size: 48px;
+   	line-height: 63px;
+   	color: #fff;
+   	text-shadow: 0 0 5px rgba(0,0,0,.8);
+    text-align: center;
+   	text-transform: uppercase;
+   	border: none;
+    padding: 15px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 34.2em;
+    float: left;
+    margin-left: -9px;
+}
+.isar{
+  -webkit-animation-name: blinker;  
+    -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+  -webkit-animation-duration: 4s;
+  color: #F9D423;
+}
+@-webkit-keyframes blinker {  
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+.annad {
+  float: left;
+  border-collapse: collapse;
+  font-size: 2em;
+  position: absolute;
+  left: 3em;
+  top: 8.5em;
+}
+.annad tr:nth-child(even){
+  background: #000000;
+}
+th,
+td {
+  border: 1px solid #cecfd5;
+  padding: 10px 15px;
+}
+.form{
+  display: flex;
+  flex-flow: row;
+  float: left;
+  border-radius: 10px;
+  justify-content: space-around;
+  width: 4em;
+  padding: 1em;
+  border-radius: 10px;
+  position: absolute;
+  top: 35em;
+  left: 8.35em;
+}
+textarea{
+  height: 4em;
+  font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
+  width: 12.7em;
+}
+.annad thead{
+  background: #1e0968;
+}
+section,textarea,form{
+  border: solid red 1px;
+}
+.takki{
+  margin-left: 4.5em;
+}
+@keyframes bolti {
+    0%   {left: 0px; bottom: 0px; top:0px; }
+    25%  {left: 200px; bottom:0px; top:65px; }
+    50%  {left: 400px; bottom:0px; top:0px; }
+    75%   {left: 200px; bottom:0px; top:65px; }
+    100%  {left: 0px; bottom: 0px; top: 0px;}
+}
+@keyframes rotate {
+    0%   {transform: rotate(90deg);}
+    25%  {transform: rotate(60deg);}
+    50%  {transform: rotate(60deg);}
+    75%   {transform: rotate(60deg);}
+    100%  {transform: rotate(90deg);}
+}
+@keyframes rotate2 {
+    0%   {transform: rotate(90deg);}
+    25%  {transform: rotate(60deg);}
+    50%  {transform: rotate(300deg);}
+    75%   {transform: rotate(60deg);}
+    100%  {transform: rotate(90deg);}
+}
+
+.spadi1{
+  position: absolute;
+  width: 135px;
+  float: left;
+  transform: rotate(90deg);
+  left: 200px;
+  top: 200px;
+  animation: rotate 1s infinite;
+  animation-direction: alternate;
+}
+.spadi2{
+  position: absolute;
+  width: 135px;
+  float: left;
+  left: 600px;
+  top: 190px;
+  transform: rotate(300deg);
+  animation: rotate2 1s infinite;
+  animation-direction: alternate;
+}
+
+.bolti{
+  position: relative;
+  height: 29.8px;
+  width: 30px;
+  animation: bolti 1s infinite;
+  animation-direction: alternate;
+  margin-left: 250px; 
+  margin-top: 100px;
+}
+.gif{
+  position: absolute;
+  left: 200px;
+  top: 15px;
+}
+.dagur{
+  float: right;
+  border-collapse: collapse;
+  font-size: 1.5em;
+  position: absolute;
+  left: 7em;
+  top: 8.5em;
+  color: #1e0968;
+  background: #7a0b1d;
+  }
+  .dagur thead{
+    background: #F9D423;
+  }
+  .dagur caption{
+    background: #464349;
+    font-size: 2.5em; 
+  }
+  .aid{
+    font-size: 2em;
+    color: #F9D423;
+    position: absolute;
+    left: 24em;
+  }
+  .jonatan{
+    font-size: 2em;
+    color: #F9D423;
+    position: absolute;
+    left: 34em;
+  }
+  @media(max-width: 48em){
+    body{
+      max-width: 48em;
+    }
+  }

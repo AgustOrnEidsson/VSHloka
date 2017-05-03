@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="icon" type="image/gif/png" href="pingpongbat.png">
+    <title>Hópverkefni</title>
+  </head>
+  <body>
+    <div class="toppur">
+    	<span class="isar">Grimmasta stórmót ársins!!!!</span>
+    	<span class="isar">Tryggðu þér miða núna!!!!</span>
+    </div>
+    <div>
+      <table class="annad">
+        <caption><strong>Miðar sem eftir eru!</strong></caption>
+        <thead>
+          <tr>
+            <th scope="col">Miðar</th>
+            <th scope="col">Staða</th>
+            <th scope="col">Fjöldi miða</th>
+            <th scope="col">Verð</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>VIP</td>
+            <td>Til staðar</td>
+            <td>13 stk</td>
+            <td>130.000 kr</td>
+          </tr>
+          <tr>
+            <td>Almennir</td>
+            <td>Til staðar</td>
+            <td>120 stk</td>
+            <td>35.000 kr</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Ultra VIP</td>
+            <td>Ekki til staðar</td>
+            <td>0 stk</td>
+            <td>315.000 kr</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="form">
+      <form action="/login" method="post">
+          <section>
+          <label>
+          Nafn
+          <input type="name" name="nafn" placeholder="t.d Jón Jónsson" required>
+          </label>
+          </section>
+          <section>
+          <label>
+          Dagsetningin í dag
+          <input type="date" name="ammo" required>
+          </label>
+          </section>
+          <section>
+          <label>
+          Netfang
+          <input type="email" name="netfang" placeholder="t.d jonjonsson@gmail.com" required>
+          </label>
+          </section>
+          <section>
+          <div>
+          <input type="radio" name="is" value="hlunkur">Ping Pong spaði  (1500)
+          </div>
+          <div>
+          <input type="radio" name="is" value="lurkur">Ping Pong kúla (750kr)
+          </div>
+          </section>
+          <section class="litir">
+          <div>
+          <input type="checkbox" name="bragd">VIP
+          </div>
+          <div>
+          <input type="checkbox" name="bragd">Almennir
+          </div>
+          <div>
+          <input type="checkbox" name="bragd">ULTRA VIP
+          </div>
+          </section>
+          <section>
+          <label>
+          Hversu marga miða viltu
+          <input type="text" name="texti" required>
+          </label>
+          </section>
+          <section>
+          <label>
+          Hvaða dag viltu koma
+          <select name="day">
+            <option value="Sunday">Sunnudag</option>
+            <option value="Monday">Mánudag</option>
+            <option value="Tuesday">Þriðjudag</option>
+            <option value="Wednesday">Miðvikudag</option>
+            <option value="Thursday">Fimmtudag</option>
+            <option value="Friday">Föstudag</option>
+            <option value="Saturday">Laugardag</option>
+          </select>
+          </label>
+          </section>
+          <label class="ath">
+          Athugasemdir
+          <textarea name="comment" placeholder="Sláðu inn athugasemd"></textarea>
+          </label>
+          <div>
+          <input class="takki" type="submit" value="Senda">
+          </div>
+      </form>
+      <img class="gif" src="arnold.gif">
+    </div>
+    <img class="spadi1" src="pingpong.png">
+	<img class="bolti" src="pingpongball.png">
+	<img class="spadi2" src="pingpong.png">
+	
+    <nav>
+    	<a href="sida2.html" class="jonatan">Kýkja á dagskrá</a>
+    </nav>
+  </body>
+</html>

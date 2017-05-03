@@ -1,0 +1,11 @@
+Viðmið (breakpoints) fyrir mismunandi skjástærðir, „mobile up“ - 37.5em, 48em, 60em, 80em.     -Bjarki
+Myndir í vefsíðum aðlagast mismunandi skjástærðum (notið <picture> tagið).		       -Bjarki
+Letur og litanotkun er í samræmi við efni/þema vefsins.					       -Báðir
+Almenn lýsing á viðburði og sundurliðuð dagskrá í töflu.				       -Ágúst
+SCSS/CSS kóðun í stílsíðum – aðeins ein CSS stílsíða tengd vefsíðu.			       -Báðir
+Kvikun – Animation (val - animation, transitions, transform)				       -Bjarki
+Notandi getur skráð sig á fyrirlestra, atburði eða tónleika sem eru í boði (form).	       -Ágúst
+Upplýsingar sem skráðar eru í formið eru villuprófaðar (HTML5 validation).		       -Ágúst
+
+--Ping pong mót
+--
