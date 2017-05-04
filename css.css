@@ -169,6 +169,65 @@ section,textarea,form{
   }
   @media(max-width: 48em){
     body{
-      max-width: 48em;
+      min-width: 48em;
+      color: green;
+      margin: auto;
     }
+  .annad{
+    top: 200px;
+    width: 100%;
+    left: 20px;
+    position: relative;
   }
+      
+  .form{
+    display: flex;
+    flex-flow: row;
+    float: left;
+    border-radius: 10px;
+    justify-content: space-around;
+    width: 4em;
+    padding: 1em;
+    border-radius: 10px;
+    top: 800px;
+    left: 5em;
+  }
+   .jonatan{
+      position: absolute;
+      left: 20px;
+      top: 700px;
+
+    }
+    .toppur{
+        width: 100%;
+
+    }
+    .spadi1{
+      top: 320px;
+    }
+    .spadi2{
+      top: 320px;
+    }
+    .bolti{
+    }
+  } 
+@media(max-width: 37.5em;){
+    body{
+      min-width: 48em;
+      color: yellow;
+      margin: auto;
+
+      }
+  .form{
+    display: flex;
+    flex-flow: row;
+    float: left;
+    border-radius: 10px;
+    justify-content: space-around;
+    width: 4em;
+    padding: 1em;
+    border-radius: 10px;
+    top: 50em;
+    left: 8.35em;
+  }
+  } 
