@@ -5,21 +5,21 @@ body{
   color:#F9D423;
 }
 .toppur{
- 	  position:relative;
-  	top: -8px;
-  	left: 0px;
-  	background: #1e0968;
-  	color: #fff;
-  	width: 170.9%;
-  	font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;    	
-  	font-weight: 700;
-   	font-size: 48px;
-   	line-height: 63px;
-   	color: #fff;
-   	text-shadow: 0 0 5px rgba(0,0,0,.8);
+    position:relative;
+    top: -8px;
+    left: 0px;
+    background: #1e0968;
+    color: #fff;
+    width: 170.9%;
+    font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;     
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0,0,0,.8);
     text-align: center;
-   	text-transform: uppercase;
-   	border: none;
+    text-transform: uppercase;
+    border: none;
     padding: 15px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -167,17 +167,29 @@ section,textarea,form{
     position: absolute;
     left: 34em;
   }
-  @media(max-width: 48em){
+    h3{
+    position: absolute;
+    right: 330px;
+    top: 270px;
+    width: 250px;
+    background-color: #1e0968;
+    padding: 10px;
+  }
+  .kort{
+    position: absolute;
+    right: 330px;
+    top: 633px;
+  } 
+@media(max-width: 48em){
     body{
       min-width: 48em;
-      color: green;
       margin: auto;
     }
   .annad{
-    top: 200px;
+    top: 400px;
     width: 100%;
     left: 20px;
-    position: relative;
+    position: absolute;
   }
       
   .form{
@@ -209,12 +221,13 @@ section,textarea,form{
       top: 320px;
     }
     .bolti{
+      position: relative;
     }
   } 
 @media(max-width: 37.5em;){
     body{
-      min-width: 48em;
-      color: yellow;
+      min-width: 37.5em;
+      color: blue;
       margin: auto;
 
       }
@@ -227,7 +240,6 @@ section,textarea,form{
     width: 4em;
     padding: 1em;
     border-radius: 10px;
-    top: 50em;
+    top: 800px;
     left: 8.35em;
   }
-  } 
