@@ -1,5 +1,4 @@
 body{
-  max-width: 60em;
   margin: auto 0;
   background: #464349;
   color:#F9D423;
@@ -23,7 +22,7 @@ body{
     padding: 15px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    width: 34.2em;
+    width: 100%;
     float: left;
     margin-left: -9px;
 }
@@ -106,7 +105,7 @@ section,textarea,form{
 .spadi1{
   position: absolute;
   width: 135px;
-  float: left;
+  float: right;
   transform: rotate(90deg);
   left: 200px;
   top: 200px;
@@ -166,20 +165,24 @@ section,textarea,form{
     color: #F9D423;
     position: absolute;
     left: 34em;
+    top: 250px;
   }
-    h3{
-    position: absolute;
-    right: 330px;
-    top: 270px;
+  h3{
     width: 250px;
     background-color: #1e0968;
     padding: 10px;
+    position: absolute;
+    left: 1050px;
+    top: 270px;
   }
   .kort{
     position: absolute;
-    right: 330px;
+    left: 1050px;
     top: 633px;
   } 
+  @media(max-width: 60em, min-width: 48em;){
+  body{color: green}
+}
 @media(max-width: 48em){
     body{
       min-width: 48em;
@@ -201,13 +204,13 @@ section,textarea,form{
     width: 4em;
     padding: 1em;
     border-radius: 10px;
-    top: 800px;
+    top: 850px;
     left: 5em;
   }
    .jonatan{
       position: absolute;
       left: 20px;
-      top: 700px;
+      top: 230px;
 
     }
     .toppur{
@@ -223,11 +226,18 @@ section,textarea,form{
     .bolti{
       position: relative;
     }
+    h3{
+      top: 1150px;
+      left: 400px;
+    }
+    .kort{
+      top: 1300px;
+      left: 20px;
+    }
   } 
 @media(max-width: 37.5em;){
     body{
       min-width: 37.5em;
-      color: blue;
       margin: auto;
 
       }
@@ -243,3 +253,4 @@ section,textarea,form{
     top: 800px;
     left: 8.35em;
   }
+}
